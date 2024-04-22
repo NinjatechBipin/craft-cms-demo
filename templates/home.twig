@@ -1,0 +1,33 @@
+{% extends "index" %}
+{% block content %}
+
+    {% set image = entry.heroImage.one() %}
+
+    <section class="hero" style="background-image: url('{{ image.url }}')">
+        <div class="hero__content content-column">
+
+            <h1>{{ entry.heroTitle }}</h1>
+
+        </div>
+    </section>
+    {% include "components/featured-story" with { featured: entry.featuredStory.one() } %}
+
+    <section class="section section--more-padding section--light section--angled-top">
+    <div class="content-column centered">
+
+    {{ entry.ridersIntroContent }}
+
+    <div class="flex-columns">
+    {% for rider in entry.riders.all() %}
+      <div class="flex-columns__item">
+      <img src="{{ rider.image.one().url }}" alt="{{ rider.fullName }}" class="flex-columns__image">
+      <h4>{{ rider.fullName }}</h4>
+      <p>{{ rider.description }}</p>
+      </div>
+  {% endfor %}
+
+  </div>
+
+  </div>
+  </section>
+{% endblock %}

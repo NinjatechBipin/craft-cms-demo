@@ -1,0 +1,15 @@
+{% extends "index" %}
+{% set body_classess = "inner-page" %}
+{% block content %}
+	<article class="section">
+      <div class="content-column content-column--narrow">
+
+        <h1 class="centered">{{ entry.title }}</h1>
+
+        {% include "components/slider" with { photos: entry.photo.all() } %}
+
+        {{ entry.richText }}
+
+      </div>
+    </article>
+{% endblock %}

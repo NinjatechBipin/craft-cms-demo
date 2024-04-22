@@ -1,0 +1,23 @@
+<section class="featured-story">
+        <div class="featured-story__flex content-column">
+
+            <div class="featured-story__content">
+
+                <h2>{{ featured.title }}</h2>
+
+                <p>{{ featured.shortDescription }}</p>
+
+                <p>
+                    <a href="{{ featured.url }}" class="cta-link">Discover the full story</a>
+                </p>
+
+            </div>
+
+            <div class="featured-story__slider">
+
+                <!-- Slider Component -->
+                {% include "components/slider" with { photos: featured.photo.all() } %}
+            </div>
+
+        </div>
+    </section>

@@ -1,0 +1,31 @@
+{% extends "index" %}
+
+{% set body_classess = "inner-page" %}
+
+{% block content %}
+	{% set stories = craft.entries.section('stories') %}
+	<section class="section">
+      <div class="content-column">
+        <h1 class="centered">{{ entry.title }}</h1>
+        <div class="two-columns">
+    	{% for storie in stories %}
+          <div class="two-columns__item">
+            <div class="two-columns__content">
+              <h2>{{ storie.title }}</h2>
+              <p>{{ storie.shortDescription }}</p>
+              <p>
+                <a href="{{ storie.url }}" class="cta-link">Discover the full story</a>
+              </p>
+            </div>
+            <div class="two-columns__image">
+            {% set storyImage = storie.photo.one() %}
+            {% if storyImage %}
+              <img src="{{ storyImage.url }}" alt="{{ storyImage.title }}">
+            {% endif %}
+            </div>
+          </div>
+		{% endfor %}
+        </div>
+      </div>
+    </section>
+{% endblock %}

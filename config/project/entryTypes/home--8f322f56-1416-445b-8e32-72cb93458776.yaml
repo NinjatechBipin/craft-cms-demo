@@ -1,0 +1,119 @@
+fieldLayouts:
+  02ec7238-fb0b-4e1d-8672-7a76cd74637f:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 1a7288e9-8a4f-43c0-a7a3-b4604b7d3832
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a2f99a14-afb1-4806-b967-ca525dd91cfb # Hero Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b383fd72-c2c1-4a31-8639-65651d9133e8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: de7823d3-78c3-4f2b-ab41-6f96f3855245 # Hero Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 44895e6c-07d1-4a18-b1ff-1aef240de743
+            userCondition: null
+            warning: null
+            width: 100
+        name: Hero
+        uid: 0316a875-1225-4dfb-8c8b-91ec55e65105
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 48ad8e71-4353-4d61-8834-f8575248cf24 # Featured Story
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5347da43-b0e2-446f-96c2-a71dde149ba6
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Featured Story'
+        uid: 89a7bd17-faa5-4abf-9d0e-e6e71cf769ec
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 10e12be1-8c18-4661-96a7-2757fbc87057 # Riders Intro Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 53155bfa-f3d7-47c4-8fbe-d5ff752e6aed
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3c2af6f9-d590-44cf-b548-a0e4e60e2e38 # Riders
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a7fe74d7-f414-44ec-9b02-9f1bdc31b80c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Rider
+        uid: a762f40b-beb0-41e3-9c9c-eca4ef2b7611
+        userCondition: null
+handle: home
+hasTitleField: false
+name: Home
+section: a5317fb0-6ea6-474f-a3ee-4b5b9e011ba8 # Home
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,16 @@
+<section class="two-column">
+    <div class="two-column-story__flex content-column">
+
+        <div class="two-column-story__content">
+            <h2>{{ entry.title }}</h2>
+            <div class="two-column-block two-column_flex-{{ entry.imageSide }}">
+                <div class="two-column-block-item">
+                    <p>{{ entry.textContent }}</p>
+                </div>
+                <div class="two-column-block-item">
+                    <img src="{{ entry.image.one().url }}" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

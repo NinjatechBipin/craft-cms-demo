@@ -1,0 +1,35 @@
+columnSuffix: spjnpwwx
+contentColumnType: string(10)
+fieldGroup: be210b87-b401-401f-bb4d-2aab2584f40c # Two Column
+handle: imageSide
+instructions: null
+name: 'Image Side'
+searchable: false
+settings:
+  columnType: null
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - 'Left Image'
+        -
+          - value
+          - leftImage
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - 'Right Image'
+        -
+          - value
+          - rightImage
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\RadioButtons

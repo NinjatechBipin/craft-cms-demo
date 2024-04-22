@@ -1,0 +1,129 @@
+dateModified: 1713538822
+email:
+  fromEmail: admin@gmail.com
+  fromName: 'Craft 4 Demo'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  uploads:
+    hasUrls: true
+    name: Uploads
+    settings:
+      path: $ASSET_BASE_PATH
+    type: craft\fs\Local
+    url: $ASSET_BASE_URL
+meta:
+  __names__:
+    0ca69b71-6551-497b-af4b-cc9cc4fb8fcd: 'Home Page' # Home Page
+    0d63eaac-75bc-4a58-8bb1-33e813ca54ed: ContentBlock # ContentBlock
+    0d384673-0a1a-4ee5-9c46-61ce95adcc18: 'Navigation Menu' # Navigation Menu
+    2c777f0e-c27f-487b-8500-60362b298ee9: 'Text Content' # Text Content
+    2cc56f59-386d-49b7-9906-7140ce584f22: 'Stories Listing' # Stories Listing
+    3c2af6f9-d590-44cf-b548-a0e4e60e2e38: Riders # Riders
+    3ea1680a-72ce-4b74-8af1-f1c0e756869b: Footer # Footer
+    6ab06e75-98e0-4097-9a0c-6305028db8f2: Image # Image
+    8f322f56-1416-445b-8e32-72cb93458776: Home # Home
+    10e12be1-8c18-4661-96a7-2757fbc87057: 'Riders Intro Content' # Riders Intro Content
+    12bc542f-0608-4808-8b8f-9db8f8ff8152: 'Craft 4 Demo' # Craft 4 Demo
+    30b2f6ae-f341-49bb-8d2f-1c3fc0feb429: 'Short Description' # Short Description
+    43ec93a4-5de9-479a-9a74-012b581e195b: 'Block Layout' # Block Layout
+    48ad8e71-4353-4d61-8834-f8575248cf24: 'Featured Story' # Featured Story
+    54db24b0-bb66-4247-a216-54cf06ac189f: 'Menu Link' # Menu Link
+    351f1e20-8e2c-4f8e-9721-ac1e5cced4ba: Menus # Menus
+    621b7e3b-4418-4e95-8453-3c82a4b5eb60: 'Craft 4 Demo' # Craft 4 Demo
+    643a3ba0-c536-4a87-91b3-20653d84166a: Description # Description
+    3933d639-57c2-4da8-9d0b-b74ac48469cf: 'Text Content' # Text Content
+    4092e5c7-733f-4df1-9d26-f758b999efc0: 'Full Name' # Full Name
+    a0db1b44-96a7-403c-9872-f821d4c270fb: 'Block Layout' # Block Layout
+    a2f99a14-afb1-4806-b967-ca525dd91cfb: 'Hero Title' # Hero Title
+    a5317fb0-6ea6-474f-a3ee-4b5b9e011ba8: Home # Home
+    be210b87-b401-401f-bb4d-2aab2584f40c: 'Two Column' # Two Column
+    be121643-5608-41e7-9589-8a18749765a4: 'Our Gear' # Our Gear
+    c2a22434-2467-4802-ba70-1f9d0331931d: Common # Common
+    c32fdefd-3b29-483e-a38f-9b8f77a9b466: 'Image Side' # Image Side
+    da5bf446-e9a6-4788-b622-e738719c9da9: 'Text Content' # Text Content
+    dbd975c4-c434-4cd7-8146-06cdc86fdccb: Uploads # Uploads
+    de250fd7-8482-4148-93cc-656aca7f5580: 'Stories Listing' # Stories Listing
+    de7823d3-78c3-4f2b-ab41-6f96f3855245: 'Hero Image' # Hero Image
+    e022758e-0eb7-444a-b790-50753a8647a5: 'Menu Name' # Menu Name
+    e5a98c90-afdd-43e8-943d-d3c7a15a2f10: Stories # Stories
+    e6d8350a-bd13-4dec-b26d-d27e9406910b: Default # Default
+    e7dd4e8c-a85e-4ef0-9e01-4f15990d56f7: Image # Image
+    e342df77-79da-4156-ae3d-98a646f75a2c: 'Our Gear' # Our Gear
+    ee26d1eb-846e-4df1-a509-b70942ebe360: 'Public Schema' # Public Schema
+    ee19838e-45fc-4fa4-a6a9-1aea0b27d9be: Rider # Rider
+    ef109490-243f-44c6-9d33-9db2586c182d: 'Rich Text' # Rich Text
+    fd99614f-19cb-4942-9506-9f88b63249f3: Photo # Photo
+    feafa0b6-dd77-4f2b-b70a-f77e27853454: 'Top Nav Menu' # Top Nav Menu
+plugins:
+  contact-form:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      allowAttachments: '1'
+      allowedMessageFields: null
+      prependSender: 'On behalf of'
+      prependSubject: 'New message from Craft 4 Demo'
+      successFlashMessage: 'Your message has been sent.'
+      toEmail: bipin@yopmail.com
+  little-layout:
+    edition: standard
+    enabled: true
+    licenseKey: 68K1TWKDRMRTM85YYR2OR4F3
+    schemaVersion: 1.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  themes:
+    edition: lite
+    enabled: true
+    schemaVersion: 4.1.0
+    settings:
+      blockCache: null
+      console: null
+      cp: null
+      default: ''
+      displayerCache: null
+      eagerLoad: true
+      eagerLoadingCache: null
+      folder: themes
+      hideEmptyFields: true
+      maxEagerLoadLevel: 5
+      menuItemName: Theming
+      redirectTo: list
+      rulesCache: null
+      setConsole: ''
+      setCp: ''
+      showCpShortcuts: true
+      templateCache: null
+      themesRules:
+        -
+          __assoc__:
+            -
+              - enabled
+              - ''
+            -
+              - url
+              - test
+            -
+              - site
+              - ''
+            -
+              - viewPort
+              - ''
+            -
+              - language
+              - ''
+system:
+  edition: solo
+  live: true
+  name: 'Craft 4 Demo'
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

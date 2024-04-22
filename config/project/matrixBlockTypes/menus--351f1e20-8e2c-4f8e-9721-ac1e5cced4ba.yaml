@@ -1,0 +1,82 @@
+field: feafa0b6-dd77-4f2b-b70a-f77e27853454 # Top Nav Menu
+fieldLayouts:
+  1ed76826-3da9-4092-ad3c-1e9e95472e87:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: e022758e-0eb7-444a-b790-50753a8647a5 # Menu Name
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a468ab15-9e82-4eeb-98f9-0f71f4d6d053
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 54db24b0-bb66-4247-a216-54cf06ac189f # Menu Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f759e5d8-ded8-4e4e-91e5-cf0fde57e3aa
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 5f624eba-5a8c-4c89-abba-50eb71a6785a
+        userCondition: null
+fields:
+  54db24b0-bb66-4247-a216-54cf06ac189f: # Menu Link
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: menuLink
+    instructions: null
+    name: 'Menu Link'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      branchLimit: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: 1
+      minRelations: 1
+      selectionLabel: null
+      showSiteMenu: true
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  e022758e-0eb7-444a-b790-50753a8647a5: # Menu Name
+    columnSuffix: brqqqkzz
+    contentColumnType: text
+    fieldGroup: null
+    handle: menuName
+    instructions: null
+    name: 'Menu Name'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: menus
+name: Menus
+sortOrder: 1

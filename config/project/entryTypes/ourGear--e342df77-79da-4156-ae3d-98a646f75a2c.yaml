@@ -1,0 +1,59 @@
+fieldLayouts:
+  7b8ac21e-6044-4568-80b5-72c7cdb17f94:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 71a09bc5-8e50-4bd1-824f-b48f43ebff62
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 0d63eaac-75bc-4a58-8bb1-33e813ca54ed # ContentBlock
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ccb15397-ccbd-4d1c-a5b2-2795d75fa2df
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: d2ad5bdf-e1a9-4df8-8ec9-67150f2ceccb
+        userCondition: null
+handle: ourGear
+hasTitleField: false
+name: 'Our Gear'
+section: be121643-5608-41e7-9589-8a18749765a4 # Our Gear
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

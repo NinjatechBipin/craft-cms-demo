@@ -1,0 +1,12 @@
+{% extends "index" %}
+{% set body_classess = "inner-page" %}
+{% block content %}
+
+<article class="section">
+      <div class="content-column content-column--wide">
+
+        <h1 class="centered">{{ entry.title }}</h1>
+        {% include "components/two-column.twig" with { entry: entry } %}
+      </div>
+    </article>
+{% endblock %}

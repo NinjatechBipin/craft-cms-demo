@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: ourGear
+name: 'Our Gear'
+propagationMethod: all
+siteSettings:
+  621b7e3b-4418-4e95-8453-3c82a4b5eb60: # Craft 4 Demo
+    enabledByDefault: true
+    hasUrls: true
+    template: ourGear.twig
+    uriFormat: our-gear
+type: single

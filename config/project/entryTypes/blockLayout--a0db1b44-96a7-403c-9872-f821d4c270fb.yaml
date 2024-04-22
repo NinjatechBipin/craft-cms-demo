@@ -1,0 +1,83 @@
+fieldLayouts:
+  efdaa1bc-602e-42e3-9dfb-6823810cc1d1:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 276a53d1-a97b-4c2f-a904-d8f1953318ec
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c32fdefd-3b29-483e-a38f-9b8f77a9b466 # Image Side
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8c9f742b-5f2b-40fd-89c0-64025397f848
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e7dd4e8c-a85e-4ef0-9e01-4f15990d56f7 # Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b6e06b6b-71bc-45ee-b673-fe0c69c10fa6
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 3933d639-57c2-4da8-9d0b-b74ac48469cf # Text Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 15308e88-77b8-4f66-a2ab-66cada6dce10
+            userCondition: null
+            warning: null
+            width: 50
+        name: Content
+        uid: db82e43e-f376-4c14-8677-d3b8be3d6fbd
+        userCondition: null
+handle: blockLayout
+hasTitleField: true
+name: 'Block Layout'
+section: 43ec93a4-5de9-479a-9a74-012b581e195b # Block Layout
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

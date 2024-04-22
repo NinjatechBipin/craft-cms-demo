@@ -1,0 +1,9 @@
+{% if blocks|length %}
+
+  {% for blk in blocks %}
+    {% include '_blocks/_' ~ blk.type ignore missing with {
+      blk: blk
+    } only %}
+  {% endfor %}
+
+{% endif %}

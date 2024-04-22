@@ -1,0 +1,19 @@
+columnSuffix: kiheqhzc
+contentColumnType: text
+fieldGroup: c2a22434-2467-4802-ba70-1f9d0331931d # Common
+handle: shortDescription
+instructions: null
+name: 'Short Description'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 3
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

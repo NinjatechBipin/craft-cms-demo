@@ -1,0 +1,19 @@
+columnSuffix: epdlwpve
+contentColumnType: text
+fieldGroup: 0ca69b71-6551-497b-af4b-cc9cc4fb8fcd # Home Page
+handle: heroTitle
+instructions: null
+name: 'Hero Title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

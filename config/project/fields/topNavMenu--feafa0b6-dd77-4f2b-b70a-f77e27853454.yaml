@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: c2a22434-2467-4802-ba70-1f9d0331931d # Common
+handle: topNavMenu
+instructions: null
+name: 'Top Nav Menu'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_topnavmenu}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix
