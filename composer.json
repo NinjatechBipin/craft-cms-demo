@@ -4,6 +4,7 @@
     "craftcms/contact-form": "3.0.1",
     "craftcms/redactor": "3.0.4",
     "ryssbowh/craft-themes": "4.2.15",
+    "vaersaagod/matrixmate": "^2.1",
     "vlucas/phpdotenv": "^5.4.0",
     "wbrowar/craft-little-layout": "2.0.0"
   },

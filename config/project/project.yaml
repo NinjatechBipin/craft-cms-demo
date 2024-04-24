@@ -1,4 +1,4 @@
-dateModified: 1713538822
+dateModified: 1713793197
 email:
   fromEmail: admin@gmail.com
   fromName: 'Craft 4 Demo'
@@ -20,14 +20,19 @@ meta:
     2cc56f59-386d-49b7-9906-7140ce584f22: 'Stories Listing' # Stories Listing
     3c2af6f9-d590-44cf-b548-a0e4e60e2e38: Riders # Riders
     3ea1680a-72ce-4b74-8af1-f1c0e756869b: Footer # Footer
+    3fdffbdc-f894-4a51-8770-f832f47d31e1: 'Video Type' # Video Type
     6ab06e75-98e0-4097-9a0c-6305028db8f2: Image # Image
     8f322f56-1416-445b-8e32-72cb93458776: Home # Home
     10e12be1-8c18-4661-96a7-2757fbc87057: 'Riders Intro Content' # Riders Intro Content
+    11aa1222-f520-480b-8681-f0dcab464b0c: 'Internal Video' # Internal Video
     12bc542f-0608-4808-8b8f-9db8f8ff8152: 'Craft 4 Demo' # Craft 4 Demo
     30b2f6ae-f341-49bb-8d2f-1c3fc0feb429: 'Short Description' # Short Description
     43ec93a4-5de9-479a-9a74-012b581e195b: 'Block Layout' # Block Layout
     48ad8e71-4353-4d61-8834-f8575248cf24: 'Featured Story' # Featured Story
+    50dfa6db-f635-4d00-9645-958101a8fbe2: 'External Video' # External Video
     54db24b0-bb66-4247-a216-54cf06ac189f: 'Menu Link' # Menu Link
+    71a8dbcd-dd22-4ff9-9539-afa7e4738833: Video # Video
+    260ffa36-2ea8-4e21-9d34-c1b6c4d95e2f: 'Grid Column' # Grid Column
     351f1e20-8e2c-4f8e-9721-ac1e5cced4ba: Menus # Menus
     621b7e3b-4418-4e95-8453-3c82a4b5eb60: 'Craft 4 Demo' # Craft 4 Demo
     643a3ba0-c536-4a87-91b3-20653d84166a: Description # Description
@@ -35,6 +40,7 @@ meta:
     4092e5c7-733f-4df1-9d26-f758b999efc0: 'Full Name' # Full Name
     a0db1b44-96a7-403c-9872-f821d4c270fb: 'Block Layout' # Block Layout
     a2f99a14-afb1-4806-b967-ca525dd91cfb: 'Hero Title' # Hero Title
+    a438ba3c-df30-4536-bd84-8a87d57e75d5: 'Grid Blox' # Grid Blox
     a5317fb0-6ea6-474f-a3ee-4b5b9e011ba8: Home # Home
     be210b87-b401-401f-bb4d-2aab2584f40c: 'Two Column' # Two Column
     be121643-5608-41e7-9589-8a18749765a4: 'Our Gear' # Our Gear
@@ -52,6 +58,7 @@ meta:
     ee26d1eb-846e-4df1-a509-b70942ebe360: 'Public Schema' # Public Schema
     ee19838e-45fc-4fa4-a6a9-1aea0b27d9be: Rider # Rider
     ef109490-243f-44c6-9d33-9db2586c182d: 'Rich Text' # Rich Text
+    fb8a7122-0986-4dfe-ad9b-d7d13b34cc04: Entries # Entries
     fd99614f-19cb-4942-9506-9f88b63249f3: Photo # Photo
     feafa0b6-dd77-4f2b-b70a-f77e27853454: 'Top Nav Menu' # Top Nav Menu
 plugins:

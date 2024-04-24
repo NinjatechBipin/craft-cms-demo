@@ -8,7 +8,9 @@
                     <p>{{ entry.textContent }}</p>
                 </div>
                 <div class="two-column-block-item">
+                {% if entry.image.one() %}
                     <img src="{{ entry.image.one().url }}" alt="">
+                {% endif %}
                 </div>
             </div>
         </div>

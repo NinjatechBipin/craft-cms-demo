@@ -1,0 +1,139 @@
+field: 0d63eaac-75bc-4a58-8bb1-33e813ca54ed # ContentBlock
+fieldLayouts:
+  7104a0a0-21f8-4cf0-b888-ee1538729f1d:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 3fdffbdc-f894-4a51-8770-f832f47d31e1 # Video Type
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1944cfd4-0807-4648-bd80-019ccff5fb6c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 11aa1222-f520-480b-8681-f0dcab464b0c # Internal Video
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0dff64f2-730f-428f-bde0-631e478f6ee1
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 50dfa6db-f635-4d00-9645-958101a8fbe2 # External Video
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5dd0ec78-614a-4d8f-a7d4-2172d2c1daa8
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 106db2dc-b0cc-4ed6-bd39-9ce6ccf54079
+        userCondition: null
+fields:
+  3fdffbdc-f894-4a51-8770-f832f47d31e1: # Video Type
+    columnSuffix: xoyyvwdd
+    contentColumnType: string(8)
+    fieldGroup: null
+    handle: videoType
+    instructions: null
+    name: 'Video Type'
+    searchable: false
+    settings:
+      columnType: null
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Internal
+            -
+              - value
+              - internal
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - External
+            -
+              - value
+              - external
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\RadioButtons
+  11aa1222-f520-480b-8681-f0dcab464b0c: # Internal Video
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: internalVideo
+    instructions: null
+    name: 'Internal Video'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - video
+      branchLimit: null
+      defaultUploadLocationSource: 'volume:dbd975c4-c434-4cd7-8146-06cdc86fdccb' # Uploads
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: 1
+      minRelations: null
+      previewMode: full
+      restrictFiles: false
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:dbd975c4-c434-4cd7-8146-06cdc86fdccb' # Uploads
+      restrictedLocationSubpath: null
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  50dfa6db-f635-4d00-9645-958101a8fbe2: # External Video
+    columnSuffix: oqzizucv
+    contentColumnType: string(255)
+    fieldGroup: null
+    handle: externalVideo
+    instructions: null
+    name: 'External Video'
+    searchable: false
+    settings:
+      maxLength: 255
+      types:
+        - url
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Url
+handle: video
+name: Video
+sortOrder: 2

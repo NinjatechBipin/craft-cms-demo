@@ -1,0 +1,83 @@
+field: 0d63eaac-75bc-4a58-8bb1-33e813ca54ed # ContentBlock
+fieldLayouts:
+  ac0ff526-9e99-41f5-a705-9e634f51ac18:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 260ffa36-2ea8-4e21-9d34-c1b6c4d95e2f # Grid Column
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dc156bee-7e2a-4d95-899e-dd6d3efa9e1d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: fb8a7122-0986-4dfe-ad9b-d7d13b34cc04 # Entries
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: de273f2a-2ac2-4655-8330-68fb49f2e4d7
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 2d8682b3-14e5-41d4-a75e-8a4ac541335a
+        userCondition: null
+fields:
+  260ffa36-2ea8-4e21-9d34-c1b6c4d95e2f: # Grid Column
+    columnSuffix: hfcwoihp
+    contentColumnType: integer(10)
+    fieldGroup: null
+    handle: gridColumn
+    instructions: null
+    name: 'Grid Column'
+    searchable: false
+    settings:
+      decimals: 0
+      defaultValue: null
+      max: null
+      min: 0
+      prefix: null
+      previewCurrency: null
+      previewFormat: decimal
+      size: null
+      suffix: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Number
+  fb8a7122-0986-4dfe-ad9b-d7d13b34cc04: # Entries
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: entries
+    instructions: null
+    name: Entries
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      branchLimit: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: null
+      minRelations: null
+      selectionLabel: null
+      showSiteMenu: false
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+handle: gridBlox
+name: 'Grid Blox'
+sortOrder: 3
